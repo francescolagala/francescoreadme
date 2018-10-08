@@ -34,8 +34,9 @@ INSERT INTO EMPLOYEE (name, surname, salaryperhour) VALUES ('antonio', 'verdi', 
 ![image](https://image.ibb.co/gqbFw9/Cattura.png)
 
 
-### PARAGRAPH
+### TEST YOUR DATABASE
 
 ```
- 
+ SELECT * FROM EMPLOYEE
 ```
+And see the the results
