@@ -13,10 +13,7 @@ We can start istalling the following softwares:
 - Java 8 
 
 Other softwares will be installed in the next steps
-
-- [A guide to installation](installation.md)
-
-
+[![image](https://image.ibb.co/jbLB3p/images.jpg)](installation.md)
 ### Configuring the view resolver, first controller and first jsp page.
 
 - [A guide to configure a View Resolver](viewresolver.md)
