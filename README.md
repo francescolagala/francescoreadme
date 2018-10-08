@@ -12,8 +12,7 @@ We can start istalling the following softwares:
 - Tomcat 9.0.10
 - Java 8 
 
-Click on next button to show a step-by-step guide
-[![image](https://image.ibb.co/b694Op/image.png)](installation.md)
+[![image](https://image.ibb.co/b694Op/image.png)](installation.md)Link to step-by-step guide
 ### Configuring the view resolver, first controller and first jsp page.
 
 - [A guide to configure a View Resolver](viewresolver.md)
