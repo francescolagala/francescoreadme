@@ -73,8 +73,7 @@ public class HelloController {
 ```
 
 ### Create a path to store your views like in the following schema
-
-[![image](https://image.ibb.co/fcddg9/path.png)]
+![image](https://image.ibb.co/fcddg9/path.png)
 
 Your hellopage.jsp 
 
