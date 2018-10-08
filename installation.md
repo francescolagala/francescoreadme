@@ -1,6 +1,6 @@
 ### Java
 In this course we will create projects with java 8 version.
-[![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OGzpu8Enb23uaoifaJWExbtMVzaBG87YMCcLYK-0pN__EBsGvg)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[![image](installation.md)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 Download package depending on your OS System and install. After that:
   - add JAVA_HOME to environment variables pointing to JDK folder and add to PATH variable
@@ -8,14 +8,14 @@ Download package depending on your OS System and install. After that:
   
 ### Apache Maven
 In this course we will use apache tomcat 3.5.4 version.
-[![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OGzpu8Enb23uaoifaJWExbtMVzaBG87YMCcLYK-0pN__EBsGvg)](https://maven.apache.org/download.cgi)
+[![image](installation.md)](https://maven.apache.org/download.cgi)
 
 Download package depending on your OS System and install. After that:
   - add M2_HOME to environment variables pointing to Maven folder and add to PATH variable
   
 ### Apache Tomcat
 In this course we will use apache Tomcat 9.0.10 version.
-[![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OGzpu8Enb23uaoifaJWExbtMVzaBG87YMCcLYK-0pN__EBsGvg)](https://archive.apache.org/dist/tomcat/tomcat-9/)
+[![image](installation.md)](https://archive.apache.org/dist/tomcat/tomcat-9/)
 
 Download package depending on your OS System and install. After that:
   - add CATALINA_HOME to environment variables pointing to Maven folder and add to PATH variable 
@@ -23,7 +23,7 @@ Download package depending on your OS System and install. After that:
 ### Spring Tool Suite
 
 In this course we will use Spring Tool Suite 3.9.5 version.
-[![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OGzpu8Enb23uaoifaJWExbtMVzaBG87YMCcLYK-0pN__EBsGvg)](https://spring.io/blog/2018/07/05/spring-tool-suite-3-9-5-released)
+[![image](installation.md)](https://spring.io/blog/2018/07/05/spring-tool-suite-3-9-5-released)
 
 Download package depending on your OS System and install. After that:
   - Start your new IDE
