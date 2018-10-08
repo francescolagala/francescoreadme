@@ -15,7 +15,7 @@ We can start istalling the following softwares:
 [![image](https://image.ibb.co/b694Op/image.png)](installation.md)
 ### Configuring the view resolver, first controller and first jsp page.
 
-- [A guide to configure a View Resolver](viewresolver.md)
+[![image](https://image.ibb.co/b694Op/image.png)](viewresolver.md)
 
 ### Model, DTO, DAO, H2 DATABASE
 
@@ -25,7 +25,7 @@ We can start istalling the following softwares:
 - EmployeeMapper implementing OkiraMapperFactoryConfigurer
 - Connect to H2 (set up application.properties, create a data-h2.sql to populate database)
 
-- [a guide to implementation](3layers.md)
+[![image](https://image.ibb.co/b694Op/image.png)](3layers.md)
 
 ### Service, Controller and Form whit validation
 
