@@ -60,26 +60,26 @@ Then you can bootstrap your application (https://start.spring.io/)
 
 ### Adding a new Class Project. many-to-many hibernate configuration.
 
-- [a guide to implement a many-to-many relation] (m2m.pdf)
+- [a guide to implement a many-to-many relation](m2m.pdf)
 
 ### Ajax: Make a simple call. Testing whit postman.
 
-- [a guide to postman] (postman.pdf)
+- [a guide to postman](postman.pdf)
 
 ### Ajax: Using Javascript an Jquery to perform a real ajax call.
 
-- [a guide to javascript and jquery] (js.pdf)
+- [a guide to javascript and jquery](js.pdf)
 
 ### Cronjob - CSV import
 
-- [a guide to cronjobs] (cronjob.pdf)
+- [a guide to cronjobs](cronjob.pdf)
 
 ### Upload an image (Serialization and Deserialization)
 
-- [a guide to upload files] (upload.pdf) 
+- [a guide to upload files](upload.pdf) 
 
 ### Spring JMS. Manage a queue whit activeMQ
 
-- [a guide to installation and implementation] (jms.pdf)
+- [a guide to installation and implementation](jms.pdf)
 
 
