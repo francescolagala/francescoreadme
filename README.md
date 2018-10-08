@@ -7,27 +7,23 @@ This guide walks you through the process of creating a simple Spring Boot based 
 
 We can start istalling the following softwares:
 
--Spring Tool Suite 3.9.5
--Maven 3.5.4
--Tomcat 9.0.10
--Java 8 
-
-- [A guide to installation](installation.pdf)
+- Spring Tool Suite 3.9.5
+- Maven 3.5.4
+- Tomcat 9.0.10
+- Java 8 
 
 Other softwares will be installed in the next steps
 
-Then you can bootstrap your application (https://start.spring.io/)
-
-- [A guide to spring boot](springbootio.pdf)
+- [A guide to installation](installation.md)
 
 
 ### Configuring the view resolver, first controller and first jsp page.
 
-- [A guide to configure a View Resolver](viewresolver.pdf)
+- [A guide to configure a View Resolver](viewresolver.md)
 
 ### Model: Creating a class Employee
 
-- [guide](model.pdf)
+- [guide](model.md)
 
 ### 3 Layers Architecture: 
 
@@ -36,50 +32,50 @@ Then you can bootstrap your application (https://start.spring.io/)
 - Connect to H2
 - Service
 
-- [a guide to implementation](3layers.pdf)
+- [a guide to implementation](3layers.md)
 
 ### Form Validation
 
-- [a guide to validation](validation.pdf)
+- [a guide to validation](validation.md)
 
 ### Logging
 
-- [a guide to logging](logging.pdf)
+- [a guide to logging](logging.md)
 
 ### AoP - Aspect oriented Programming.
 
-- [a guide to aspect oriented programming](aop.pdf)
+- [a guide to aspect oriented programming](aop.md)
 
 ### Async Event / Mail (Mailgun)
 
-- [a guide to async events](async.pdf)
+- [a guide to async events](async.md)
 
 ### Spring boot security Configuration
 
-- [a guide to security](security.pdf)
+- [a guide to security](security.md)
 
 ### Adding a new Class Project. many-to-many hibernate configuration.
 
-- [a guide to implement a many-to-many relation](m2m.pdf)
+- [a guide to implement a many-to-many relation](m2m.md)
 
 ### Ajax: Make a simple call. Testing whit postman.
 
-- [a guide to postman](postman.pdf)
+- [a guide to postman](postman.md)
 
 ### Ajax: Using Javascript an Jquery to perform a real ajax call.
 
-- [a guide to javascript and jquery](js.pdf)
+- [a guide to javascript and jquery](js.md)
 
 ### Cronjob - CSV import
 
-- [a guide to cronjobs](cronjob.pdf)
+- [a guide to cronjobs](cronjob.md)
 
 ### Upload an image (Serialization and Deserialization)
 
-- [a guide to upload files](upload.pdf) 
+- [a guide to upload files](upload.md) 
 
 ### Spring JMS. Manage a queue whit activeMQ
 
-- [a guide to installation and implementation](jms.pdf)
+- [a guide to installation and implementation](jms.md)
 
 
