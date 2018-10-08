@@ -21,20 +21,17 @@ Other softwares will be installed in the next steps
 
 - [A guide to configure a View Resolver](viewresolver.md)
 
-### Model: Creating a class Employee
+### Model, DTO, DAO, H2 DATABASE
 
-- [guide](model.md)
-
-### 3 Layers Architecture: 
-
+- Employee
 - EmployeeDTO
-- EmployeeDAO
-- Connect to H2
-- Service
+- EmployeeDAO implementing JpaRepository
+- EmployeeMapper implementing OkiraMapperFactoryConfigurer
+- Connect to H2 (set up application.properties, create a data-h2.sql to populate database)
 
 - [a guide to implementation](3layers.md)
 
-### Form Validation
+### Service, Controller and Form whit validation
 
 - [a guide to validation](validation.md)
 
