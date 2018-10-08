@@ -93,5 +93,6 @@ Your hellopage.jsp
 </body>
 </html>
 ```
-
+### Now if you go to http://localhost:8190/home you'll find something like this
+![image](https://preview.ibb.co/eXhMKU/Cattura.png)
 
