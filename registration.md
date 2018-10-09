@@ -32,19 +32,19 @@
                 <tr>
                     <td><form:label path="nameDTO">Name</form:label></td>
                     <td><form:input path="nameDTO"/>
-                   <form:errors path="nameDTO" cssClass="error" /></td>
+                    </td>
                 
                 </tr>
                 <tr>
                     <td><form:label path="surnameDTO">Surname</form:label></td>
                     <td><form:input path="surnameDTO"/>
-                    <form:errors path="surnameDTO" cssClass="error" /></td>
+                    </td>
                     
                 </tr>
                  <tr>
                     <td><form:label path="salaryPerHourDTO"> Salary</form:label></td>
                     <td><form:input path="salaryPerHourDTO"/>
-                    <form:errors path="salaryPerHourDTO" cssClass="error" /></td>
+                    </td>
   
                 </tr>
                       
