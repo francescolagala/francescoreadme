@@ -152,4 +152,4 @@ public class EmployeeServiceImpl implements EmployeeService{
 			
 ```
 
-###TIPS: try to check your database h2, if you've done everything right registring a new employee you shoud se him in the table.
+###TIPS: try to check your database h2, if you've done everything right registring a new employee you shoud see him in the table.
