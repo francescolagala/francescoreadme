@@ -27,7 +27,11 @@ We can start istalling the following softwares:
 
 [![image](https://image.ibb.co/b694Op/image.png)](3layers.md)
 
-### Service, Controller and Form whit validation
+### Registration Form and EmployeeService
+
+[![image](https://image.ibb.co/b694Op/image.png)](registration.md)
+
+### Validation
 
 - [a guide to validation](validation.md)
 
