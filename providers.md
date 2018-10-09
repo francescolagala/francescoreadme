@@ -1,13 +1,15 @@
-### Secondo l'analisi delle specifiche richieste si propone il seguente schema Entity-Relation
+### Secondo l'analisi delle specifiche richieste si propongono i seguenti diagrammi:
+
+### ER:
 ![image](https://image.ibb.co/e1r1M9/ER.png)
 
-### Che si traduce nel seguente diagramma UML:
+### UML:
 ![image](https://image.ibb.co/bFsDZU/UML.png)
 
-### Nel seguente diagramma Use Case possiamo invece vedere le principali funzionalità da implementare:
+### Use Case:
 ![image](https://image.ibb.co/hLvT19/UseCase.png)
 
-### PASSAGGI SALIENTI:
+### PUNTI SALIENTI:
 - Accesso da parte di PM e Assistenti attraverso un Single sign-on con le credenziali aziendali.
 - L'assistente può inviare una email di invito ai providers.
 - I providers che ricevono l'invito possono registrarsi attraverso un form, gli verrà dunque
