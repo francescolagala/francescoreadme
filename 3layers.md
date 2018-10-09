@@ -104,6 +104,15 @@ public class EmployeeDTO implements Serializable{
 	public EmployeeDTO() {
 		super();
 	}
+	
+	public EmployeeDTO(String nameDTO, String surnameDTO, Double salaryPerHourDTO, Integer idDTO) {
+		super();
+		this.nameDTO = nameDTO;
+		this.surnameDTO = surnameDTO;
+		this.salaryPerHourDTO = salaryPerHourDTO;
+		this.idDTO = idDTO;
+	}
+	
 
 }
 
@@ -146,28 +155,25 @@ import it.springbootmvc.flg.model.*;
 import ma.glasnost.orika.MapperFactory;
 import net.rakugakibox.spring.boot.orika.OrikaMapperFactoryConfigurer;
 
-public class EmployeeMapper {
+@Component
+public class EmployeeMapper implements OrikaMapperFactoryConfigurer{
 
-	@Component
-	public class Mapper implements OrikaMapperFactoryConfigurer{
-
-		@Override
-		public void configure(MapperFactory orikaMapperFactory) {
-			orikaMapperFactory.classMap(Employee.class, EmployeeDTO.class)
-			.field("name", "nameDTO")
-			.field("surname", "surnameDTO")
-			.field("salaryPerHour", "salaryPerHourDTO")
-			.field("id", "idDTO")
+	@Override
+	public void configure(MapperFactory orikaMapperFactory) {
+		orikaMapperFactory.classMap(Employee.class, EmployeeDTO.class)
+		.field("name", "nameDTO")
+		.field("surname", "surnameDTO")
+		.field("salaryPerHour", "salaryPerHourDTO")
+		.field("id", "idDTO")
 
 
-			.byDefault()
-			.mapNulls(false)
-			.mapNullsInReverse(true)
-			.register();
-		}
-
+		.byDefault()
+		.mapNulls(false)
+		.mapNullsInReverse(true)
+		.register();
 	}
 }
+
 
 ```
 
