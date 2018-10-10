@@ -13,11 +13,18 @@ We can start istalling the following softwares:
 - Java 8 
 
 [![image](https://image.ibb.co/b694Op/image.png)](installation.md)
-### Configuring the view resolver, first controller and first jsp page.
+### VIEW-CONTROLLER
+
+- Configure a view resolver
+- First controller
+- First jsp page
 
 [![image](https://image.ibb.co/b694Op/image.png)](viewresolver.md)
 
-### Model, DTO, DAO, H2 DATABASE
+### 3 tier architechture:
+
+[![image](https://image.ibb.co/b694Op/image.png)](https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture)
+
 
 - Employee
 - EmployeeDTO
@@ -33,46 +40,46 @@ We can start istalling the following softwares:
 
 ### Validation
 
-- [a guide to validation](validation.md)
+[![image](https://image.ibb.co/b694Op/image.png)](validation.md)
 
 ### Logging
 
-- [a guide to logging](logging.md)
+[![image](https://image.ibb.co/b694Op/image.png)](logging.md)
 
 ### AoP - Aspect oriented Programming.
 
-- [a guide to aspect oriented programming](aop.md)
+[![image](https://image.ibb.co/b694Op/image.png)](aop.md)
 
 ### Async Event / Mail (Mailgun)
 
-- [a guide to async events](async.md)
+[![image](https://image.ibb.co/b694Op/image.png)](async.md)
 
 ### Spring boot security Configuration
 
-- [a guide to security](security.md)
+[![image](https://image.ibb.co/b694Op/image.png)](security.md)
 
 ### Adding a new Class Project. many-to-many hibernate configuration.
 
-- [a guide to implement a many-to-many relation](m2m.md)
+[![image](https://image.ibb.co/b694Op/image.png)](m2m.md)
 
 ### Ajax: Make a simple call. Testing whit postman.
 
-- [a guide to postman](postman.md)
+[![image](https://image.ibb.co/b694Op/image.png)](postman.md)
 
 ### Ajax: Using Javascript an Jquery to perform a real ajax call.
 
-- [a guide to javascript and jquery](js.md)
+[![image](https://image.ibb.co/b694Op/image.png)](js.md)
 
 ### Cronjob - CSV import
 
-- [a guide to cronjobs](cronjob.md)
+[![image](https://image.ibb.co/b694Op/image.png)](cronjob.md)
 
 ### Upload an image (Serialization and Deserialization)
 
-- [a guide to upload files](upload.md) 
+[![image](https://image.ibb.co/b694Op/image.png)](upload.md) 
 
 ### Spring JMS. Manage a queue whit activeMQ
 
-- [a guide to installation and implementation](jms.md)
+[![image](https://image.ibb.co/b694Op/image.png)](jms.md)
 
 
