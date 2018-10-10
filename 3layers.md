@@ -80,7 +80,9 @@ Configure h2-database
 
 ### EmployeeDTO class
 
-(https://en.wikipedia.org/wiki/Data_transfer_object)
+
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Data_transfer_object)
+
 
 ```
 package it.springbootmvc.flg.dto;
@@ -120,7 +122,7 @@ public class EmployeeDTO implements Serializable{
 
 ### EmployeeDAO interface
 
-https://en.wikipedia.org/wiki/Data_access_object
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Data_access_object)
 
 This interface must extends a Repository Class (For example CRUD repository) to provide some methods to query database
 It is annotated whit @Repository
