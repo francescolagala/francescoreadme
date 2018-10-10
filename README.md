@@ -34,11 +34,20 @@ We can start istalling the following softwares:
 
 [![image](https://image.ibb.co/b694Op/image.png)](3layers.md)
 
-### Registration Form and EmployeeService
+### Model View Controller
+
+- reach the Model through a service layer
+- create a registration form in our View
+- implement a POST request in our Controller
 
 [![image](https://image.ibb.co/b694Op/image.png)](registration.md)
 
 ### Validation
+
+- Standard validation (javax annotations)
+- Create a custom annotation to validate a field
+- Create a custom Validator to validate EmployeeDTO objects
+- Help to validation: Convert blanks in Null values before validation
 
 [![image](https://image.ibb.co/b694Op/image.png)](validation.md)
 
