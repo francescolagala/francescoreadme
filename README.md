@@ -23,7 +23,7 @@ We can start istalling the following softwares:
 
 ### 3 tier architechture:
 
-[![image](https://image.ibb.co/b694Op/image.png)](https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture)
 
 
 - Employee
