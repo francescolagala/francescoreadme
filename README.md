@@ -24,15 +24,13 @@ We can start istalling the following softwares:
 
 ### 3 tier architechture:
 
-[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture)
-
-
 - Employee
 - EmployeeDTO
 - EmployeeDAO implementing JpaRepository
 - EmployeeMapper implementing OkiraMapperFactoryConfigurer
 - Connect to H2 (set up application.properties, create a data-h2.sql to populate database)
 
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture)
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](3layers.md)
 
 ### Model View Controller
@@ -61,38 +59,38 @@ We can start istalling the following softwares:
 
 ### AoP - Aspect oriented Programming.
 
-[![image](https://image.ibb.co/b694Op/image.png)](aop.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](aop.md)
 
 ### Async Event / Mail (Mailgun)
 
-[![image](https://image.ibb.co/b694Op/image.png)](async.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](async.md)
 
 ### Spring boot security Configuration
 
-[![image](https://image.ibb.co/b694Op/image.png)](security.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](security.md)
 
 ### Adding a new Class Project. many-to-many hibernate configuration.
 
-[![image](https://image.ibb.co/b694Op/image.png)](m2m.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](m2m.md)
 
 ### Ajax: Make a simple call. Testing whit postman.
 
-[![image](https://image.ibb.co/b694Op/image.png)](postman.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](postman.md)
 
 ### Ajax: Using Javascript an Jquery to perform a real ajax call.
 
-[![image](https://image.ibb.co/b694Op/image.png)](js.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](js.md)
 
 ### Cronjob - CSV import
 
-[![image](https://image.ibb.co/b694Op/image.png)](cronjob.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](cronjob.md)
 
 ### Upload an image (Serialization and Deserialization)
 
-[![image](https://image.ibb.co/b694Op/image.png)](upload.md) 
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](upload.md) 
 
 ### Spring JMS. Manage a queue whit activeMQ
 
-[![image](https://image.ibb.co/b694Op/image.png)](jms.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](jms.md)
 
 
