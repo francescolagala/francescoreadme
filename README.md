@@ -12,16 +12,15 @@ We can start istalling the following softwares:
 - Tomcat 9.0.10
 - Java 8 
 
-[![image](https://image.ibb.co/b694Op/image.png)](installation.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](installation.md)
 ### VIEW-CONTROLLER
 
 - Configure a view resolver
 - First controller
 - First jsp page
 
-[![image](https://image.ibb.co/b694Op/image.png)](viewresolver.md)
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/spring-mvc-view-resolver-tutorial)
-
+[![image]https://image.ibb.co/kbE3op/solution_2480514_1280.png)](viewresolver.md)
 
 ### 3 tier architechture:
 
@@ -34,7 +33,7 @@ We can start istalling the following softwares:
 - EmployeeMapper implementing OkiraMapperFactoryConfigurer
 - Connect to H2 (set up application.properties, create a data-h2.sql to populate database)
 
-[![image](https://image.ibb.co/b694Op/image.png)](3layers.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](3layers.md)
 
 ### Model View Controller
 
@@ -42,7 +41,7 @@ We can start istalling the following softwares:
 - create a registration form in our View
 - implement a POST request in our Controller
 
-[![image](https://image.ibb.co/b694Op/image.png)](registration.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](registration.md)
 
 ### Validation
 
@@ -51,14 +50,14 @@ We can start istalling the following softwares:
 - Create a custom Validator to validate EmployeeDTO objects
 - Help to validation: Convert blanks in Null values before validation
 
-[![image](https://image.ibb.co/b694Op/image.png)](validation.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](validation.md)
 
 ### Logging
 
 - Logging rest controller to print logging levels : (trace, debug, info, error, warn)
 - Logback-spring.xml configuration: define different appenders and rollover policies
 
-[![image](https://image.ibb.co/b694Op/image.png)](logging.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](logging.md)
 
 ### AoP - Aspect oriented Programming.
 
