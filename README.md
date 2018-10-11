@@ -20,6 +20,8 @@ We can start istalling the following softwares:
 - First jsp page
 
 [![image](https://image.ibb.co/b694Op/image.png)](viewresolver.md)
+[![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/spring-mvc-view-resolver-tutorial)
+
 
 ### 3 tier architechture:
 
@@ -52,6 +54,9 @@ We can start istalling the following softwares:
 [![image](https://image.ibb.co/b694Op/image.png)](validation.md)
 
 ### Logging
+
+- Logging rest controller to print logging levels : (trace, debug, info, error, warn)
+- Logback-spring.xml configuration: define different appenders and rollover policies
 
 [![image](https://image.ibb.co/b694Op/image.png)](logging.md)
 
