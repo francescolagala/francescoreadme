@@ -20,7 +20,7 @@ We can start istalling the following softwares:
 - First jsp page
 
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/spring-mvc-view-resolver-tutorial)
-[![image]https://image.ibb.co/kbE3op/solution_2480514_1280.png)](viewresolver.md)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](viewresolver.md)
 
 ### 3 tier architechture:
 
