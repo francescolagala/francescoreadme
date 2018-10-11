@@ -29,9 +29,10 @@ Download package depending on your OS System and install. After that:
   - Start your new IDE
   - Add a new Server (Tomcat)
   
-### Spring Tool Suite  
+### Spring Boot Inizializer
 
-Now you can bootstrap your application (https://start.spring.io/)
+[![image](https://image.ibb.co/jgPaZU/1_O68_Lb_Dv_D5_Dcsnez73_M7v4_Q.png)](https://start.spring.io/)
+  
   - Select an useful name and artifact_id for your project.
   - Add web dependency and lombok.(Other dependencies will be added in the next steps)
   - Click on Generate Project to download your project.
