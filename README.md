@@ -73,22 +73,27 @@ We can start istalling the following softwares:
 [![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](aop.md)
 
-### Async Event / Mail (Mailgun)
-
-- Add dependencies to pom.xml
-- Event Creation
-- Publisher
-- Listener
-- MailgunSetup
-
-[![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/spring-events)
-[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](async.md)
-
 ### Spring boot security Configuration
 
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
 [![image](https://image.ibb.co/cKBtKU/wiki.png)]()
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](security.md)
+
+### Async Event
+
+- Event Creation
+- Publisher
+- Listener
+
+[![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/spring-events)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](async.md)
+
+### Mailgun
+
+- mailgun credentials.properties
+- mailgun send a message whit user credentials at registration
+
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](mailgun.md)
 
 ### Adding a new Class Project. many-to-many hibernate configuration.
 
