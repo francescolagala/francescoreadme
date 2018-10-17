@@ -65,9 +65,9 @@ We can start istalling the following softwares:
 
 ### AoP - Aspect oriented Programming.
 
--Configuration class
--Create custom annotations
--Define aspects behavior
+- Configuration class
+- Create custom annotations
+- Define aspects behavior
 
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
 [![image](https://image.ibb.co/cKBtKU/wiki.png)]()
