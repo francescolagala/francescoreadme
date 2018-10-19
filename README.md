@@ -12,7 +12,7 @@ We can start istalling the following softwares:
 - Tomcat 9.0.10
 - Java 8 
 
-[![image](https://image.ibb.co/myHVVf/sett.png)](installation.md)
+[![image](https://image.ibb.co/ktS01L/sett.png)](installation.md)
 
 ### VIEW-CONTROLLER
 
