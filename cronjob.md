@@ -45,6 +45,7 @@ Our csv follows the pattern key,value
 ```
 2,https://www.mastersonstaffing.com/wp-content/themes/Masterson/images/testimonials.jpg
 ```
+where the key is the employee id and the value is the image path.
 
 ###  CSV import: CsvMapperImpl:
 
