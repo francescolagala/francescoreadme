@@ -133,17 +133,24 @@ We can start istalling the following softwares:
 [![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Ajax_(programming))
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](postman.md)
 
-### Cronjob - CSV import
-
-[![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
-[![image](https://image.ibb.co/cKBtKU/wiki.png)]()
-[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](cronjob.md)
-
 ### Upload an image (Serialization and Deserialization)
 
-[![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
-[![image](https://image.ibb.co/cKBtKU/wiki.png)]()
+- Upload a multipart file
+- Store it's bytes
+- Retrieve the file
+
+[![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/spring-file-upload)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Serialization)
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](upload.md) 
+
+### Cronjob - CSV import
+
+- Example Cronjob: log something whit a fixedRate.
+- Import values from csv every day.
+
+[![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Comma-separated_values)
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](cronjob.md)
 
 ### Spring JMS. Manage a queue whit activeMQ
 
