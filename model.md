@@ -7,15 +7,13 @@ TIPS: you can convert the file in bytes and store it in your database as Blob.
 @Autowired
 ImageFacade imageFacade;
 
-
-
 @RequestMapping(value = "/upload", method = {RequestMethod.POST})
 @ResponseStatus(value = HttpStatus.OK)
-	public void upload(@RequestParam("file") MultipartFile filez,@RequestParam("ownerId") Integer ownerId) throws IOException, ElementNotFound {
+public void upload(@RequestParam("file") MultipartFile filez,@RequestParam("ownerId") Integer ownerId) throws IOException, ElementNotFound {
 
-		imageFacade.saveEmployeeImage(ownerid, filez);
+	imageFacade.saveEmployeeImage(ownerid, filez);
     
-	}
+}
 	
 
 ```
@@ -41,9 +39,9 @@ public class ImagesFacadeImpl implements ImageFacade {
 	
 	public void saveEmployeeImage(ownerid, filez) throws IOException, ElementNotFound{
 
-    saver.saveToPath(filez);	
+                fileService.saveToPath(filez);	
 		EmployeeDTO imageToSaveEmployee = es.retrieveById(ownerId);
-		imageToSaveEmployee.setImageDTO(saver.getPathToString(filez));
+		imageToSaveEmployee.setImageDTO(fileService.getPathToString(filez));
 		es.update(imageToSaveEmployee);				    
     
 	}
