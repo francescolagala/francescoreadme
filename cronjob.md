@@ -27,6 +27,16 @@ public class ScheduledLog {
 
 ###  CSV import: CsvMapper (interface):
 
+Add fasterxml dependency.
+
+```
+    <dependency>
+       <groupId>com.fasterxml.jackson.dataformat</groupId>
+       <artifactId>jackson-dataformat-csv</artifactId>       
+    </dependency>
+    
+```   
+
 ```
 public interface CsvMapper {
 
