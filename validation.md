@@ -5,14 +5,14 @@ This can be made simply adding some annotation on the fields that we need to val
 
 ```
 	@NotNull
-    @Size(min=2, max=30)
+        @Size(min=2, max=30)
 	public String nameDTO;
 	
 	@NotNull
-    @Size(min=2, max=30)
+        @Size(min=2, max=30)
 	public String surnameDTO;
 	
-  @NotEvil      //This will be our custom annotation for validation
+        @NotEvil      //This will be our custom annotation for validation
 	@NotNull
 	public Double salaryPerHourDTO;
 	
@@ -40,7 +40,7 @@ import javax.validation.Payload;
 @Target({ FIELD}) //says that this annotation can be applied just to fields
 public @interface NotEvil {
 	
-	String message() default "Id cannot be 666";  //here you can provide a custom message
+    String message() default "Id cannot be 666";  //here you can provide a custom message
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 
@@ -69,7 +69,7 @@ public class NotEvilValidator implements ConstraintValidator<NotEvil, Double> {
 		if (value!=null && value==666)
 		return false;
 		else
-	    return true;
+	        return true;
 	}
 	
 	
@@ -86,11 +86,11 @@ import it.springbootmvc.flg.dto.EmployeeDTO;
 
 public class EmployeeValidator implements Validator {
 
-    //We are using this class to validate Employees. If we use the standard annotations we can just validate fields,
+        //We are using this class to validate Employees. If we use the standard annotations we can just validate fields,
 	//here we can validate the whole object (in the aftermath)
 	
-	@SuppressWarnings("rawtypes")
-    public boolean supports(Class clazz) {
+	
+        public boolean supports(Class clazz) {
         return EmployeeDTO.class.equals(clazz);
     }
    
@@ -117,12 +117,12 @@ public class EmployeeValidator implements Validator {
 //Attention to the order: @Valid must be the first and BindingResult result must follow object to validate
 
 @RequestMapping(value = "/added", method = RequestMethod.POST)
-	public String add(@Valid @ModelAttribute("employeeDTO") EmployeeDTO employeeDTO, BindingResult result,  ModelMap model){
+	        public String add(@Valid @ModelAttribute("employeeDTO") EmployeeDTO employeeDTO, BindingResult result,  ModelMap model){
     
 		EmployeeValidator validator = new EmployeeValidator();
 		validator.validate(employeeDTO, result);
 		
-    //now we want that if there are some errors we well be redirected to the same form
+        //now we want that if there are some errors we well be redirected to the same form
     
 		if (result.hasErrors()) {
 		       return "addEmployee";
@@ -146,7 +146,7 @@ we can use the tag <form:errors> to show the validation messages near the wrong 
   <tr>
                     <td><form:label path="nameDTO">Name</form:label></td>
                     <td><form:input path="nameDTO"/>
-                   <form:errors path="nameDTO" cssClass="error" /></td>
+                    <form:errors path="nameDTO" cssClass="error" /></td>
                 
                 </tr>
                 <tr>
@@ -168,7 +168,7 @@ Now our form will not accept: names or surnames shortest than 2 charachters, nul
 but someone could fill all the forms whit blank spaces. Adding this method before the validation will help us:
 
 ```
-@InitBinder
+        @InitBinder
 	public void initBinder (WebDataBinder dataBinder) {
 		StringTrimmerEditor ste = new StringTrimmerEditor(true);
 		dataBinder.registerCustomEditor(String.class, ste);
