@@ -39,6 +39,10 @@ public class MyEvent extends ApplicationEvent {
 		
 		MailgunConfig mailgun = new MailgunConfig();
 		mailgun.SendSimpleMessage(employeeDTO);
+		
+		// ATTENTION: 
+		// In the next paragraph we are going to set our STMP server (mailgun)
+		// but you can use any other service
 	};
 	
 }
