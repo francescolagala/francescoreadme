@@ -16,6 +16,8 @@ and some other features.
 
 Spring provides an implementation of this interface: import org.springframework.security.core.userdetails.UserDetails;
 
+(MyUserDetails must be extended by Employee, otherwise Employee must implements UserDetails itself)
+
 ```
 public class MyUserDetails implements UserDetails {
 
@@ -34,7 +36,7 @@ When you use this interface you must provide some method like
 
 @Override
 	public boolean getAuthorities() {
-		// TODO Auto-generated method stub
+		// TODO add correct strategy to retrieve authority
 		return true;
 	}
 
