@@ -75,7 +75,10 @@ We can start istalling the following softwares:
 
 ### Spring boot security Configuration
 
+- Basic Custom Configuration
+
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/security-spring)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Cross-cutting_concern)
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](security.md)
 
 ### Async Event
