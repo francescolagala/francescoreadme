@@ -34,7 +34,7 @@ When you use this interface you must provide some method like
 
 ```
 
-@Override
+        @Override
 	public boolean getAuthorities() {
 		// TODO add correct strategy to retrieve authority
 		return true;
@@ -47,7 +47,7 @@ When you use this interface you must provide some method like
 Roles must implement GrantedAuthority 
 
 ```
-public enum Roles implements GrantedAuthority{
+        public enum Roles implements GrantedAuthority{
 	
 	USER,
 	ADMIN;
@@ -69,17 +69,17 @@ More information about Enums:
 We are going to implement the Spring interface org.springframework.security.core.userdetails.UserDetailsService; 
 
 ```
-public class MyUserDetailsServiceImpl extends UserDetailsService{
+        public class MyUserDetailsServiceImpl extends UserDetailsService{
 
-@Override
+        @Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
 		//TODO: implement a way to retrieve users by email
 		
 		return null;
-	}
+	       }
 
-}
+        }
 ```
 
 ###  Configure security:
@@ -99,13 +99,13 @@ public class BasicConfiguration extends WebSecurityConfigurerAdapter {
 	protected void configure(AuthenticationManagerBuilder auth)
 	  throws Exception {
 	    auth.authenticationProvider(authenticationProvider());
-      auth.userDetailsService(uds);
+            auth.userDetailsService(uds);
 	}
 	 
 	@Bean
 	public DaoAuthenticationProvider authenticationProvider() {
 	    DaoAuthenticationProvider authProvider      //dao authentication strategy. Spring provides different strategies.
-	      = new DaoAuthenticationProvider();
+	    = new DaoAuthenticationProvider();
 	    authProvider.setUserDetailsService(eds);    //This is our custom service
 	    authProvider.setPasswordEncoder(encoder());  
 	    return authProvider;
@@ -118,8 +118,8 @@ public class BasicConfiguration extends WebSecurityConfigurerAdapter {
 	    return new BCryptPasswordEncoder(11);
 	}
 	 
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
+        @Override
+        protected void configure(HttpSecurity http) throws Exception {
     	
     	  http
     	     .userDetailsService(uds);
@@ -141,9 +141,9 @@ public class BasicConfiguration extends WebSecurityConfigurerAdapter {
           .and()
           .logout().logoutSuccessUrl("/authentication");
         
-        http.csrf().disable();
-        http.headers().frameOptions().disable();
-    }
+           http.csrf().disable();
+           http.headers().frameOptions().disable();
+       }
 
   
 }
