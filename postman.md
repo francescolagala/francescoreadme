@@ -24,3 +24,7 @@ public class AjaxController {
 - Configure postman call:
 
 ![image](https://image.ibb.co/mbCuX0/Postman.png)
+
+###  Send the call and look for result.
+
+TIPS: you can choose a format for response: xml, json, etc..
