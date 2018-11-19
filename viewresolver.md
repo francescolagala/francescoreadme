@@ -4,21 +4,21 @@
 <!-- tomcat.server dependencies -->
 	
 	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-tomcat</artifactId>
-		<scope>provided</scope>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-tomcat</artifactId>
+	    <scope>provided</scope>
 	</dependency>
 	<dependency>
-		<groupId>org.apache.tomcat.embed</groupId>
-		<artifactId>tomcat-embed-jasper</artifactId>
+            <groupId>org.apache.tomcat.embed</groupId>
+	    <artifactId>tomcat-embed-jasper</artifactId>
 	</dependency>
   
   <!-- javax servlet dependency -->
 	
 	<dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
-    </dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
 			
 ```
 
@@ -41,7 +41,7 @@ public class ViewConfig extends WebMvcConfigurerAdapter {
 
 	
 	@Bean
-    public ViewResolver internalResourceViewResolver() {
+        public ViewResolver internalResourceViewResolver() {
         InternalResourceViewResolver vr = new InternalResourceViewResolver();
         vr.setViewClass(JstlView.class);
         vr.setPrefix("/WEB-INF/view/");
@@ -65,9 +65,7 @@ public class HelloController {
 	@RequestMapping(value = "/hello")
 	public String login() {
 
-		return "hellopage";
-
-
+	    return "hellopage";
 	}
 }		
 ```
@@ -78,8 +76,8 @@ public class HelloController {
 Your hellopage.jsp 
 
 ```
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html>
 <head>
