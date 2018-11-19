@@ -174,5 +174,6 @@ Here is an example for a simple login:
 
 TIPS: Spring security provides an useful html tag:
 
+```
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
-
+```
