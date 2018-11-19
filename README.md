@@ -155,7 +155,7 @@ We can start istalling the following softwares:
 ### Spring JMS. Manage a queue whit activeMQ
 
 [![image](https://image.ibb.co/ktS01L/sett.png)](http://activemq.apache.org/download.html)
-[![image](https://image.ibb.co/cKBtKU/wiki.png)]()
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Java_Message_Service)
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](jms.md)
 
 
