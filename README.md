@@ -109,21 +109,29 @@ We can start istalling the following softwares:
 [![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Many-to-many_(data_model))
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](m2m.md)
 
+### Integrate bootstrap and jquery.
+
+- Import jquery and bootstrap dependency
+- Configure Resource Resolver
+- Create a custom main layout tag 
+- Create a custom style.css
+
+[![image](https://image.ibb.co/ktS01L/sett.png)](https://o7planning.org/en/10749/using-twitter-bootstrap-in-spring-boot)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/JQuery)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](bootstrap.md)
+
 ### RestController: Make a simple call. Testing whit postman.
 
 - Download Postman
 - Create a rest controller
 - Create a simple method
 - Test it whit Postman
+- Use Javascript an Jquery to perform an ajax call
 
 [![image](https://image.ibb.co/hYVEX0/postman.png)](https://www.getpostman.com/)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Ajax_(programming))
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](postman.md)
-
-### Ajax: Using Javascript an Jquery to perform a real ajax call.
-
-[![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
-[![image](https://image.ibb.co/cKBtKU/wiki.png)]()
-[![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](js.md)
 
 ### Cronjob - CSV import
 
