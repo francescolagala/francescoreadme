@@ -3,7 +3,7 @@
 After installation you must add the following dependency:
 
 ```
-    <dependency>
+                <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-activemq</artifactId>
 		</dependency>
@@ -74,7 +74,7 @@ public class ProducerResource implements ProducerResourceInter{
     @Override
     public void publish(String message) {
 
-    	  logger.info("PUBLISHER: sending message to queue");
+    	logger.info("PUBLISHER: sending message to queue");
         jmsTemplate.convertAndSend(queue, message);
 
     }
@@ -87,9 +87,8 @@ public class ProducerResource implements ProducerResourceInter{
 ```
 @Component
 public class Consumer {
-	
-	private static final Logger logger = LoggerFactory.getLogger(LoggingController.class);
-	
+
+    private static final Logger logger = LoggerFactory.getLogger(LoggingController.class);
 
     @JmsListener(destination = "standalone.queue")
     public void consume(String message){
