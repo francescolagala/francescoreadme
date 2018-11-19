@@ -88,6 +88,7 @@ We can start istalling the following softwares:
 - Listener
 
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/spring-events)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://it.wikipedia.org/wiki/Publish/subscribe)
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](async.md)
 
 ### Mailgun
@@ -99,8 +100,8 @@ We can start istalling the following softwares:
 
 ### Adding a new Class Project. many-to-many hibernate configuration.
 
-[![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
-[![image](https://image.ibb.co/cKBtKU/wiki.png)]()
+[![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/hibernate-many-to-many)
+[![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Many-to-many_(data_model))
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](m2m.md)
 
 ### Ajax: Make a simple call. Testing whit postman.
