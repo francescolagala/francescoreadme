@@ -34,11 +34,11 @@ we must define Object proceed = joinPoint.proceed() to define when the wrapped m
         @Around("@annotation(PrintClassName)")
 	public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
 		
-	    logger.info("before method: Thist class= "+this.getClass().getSimpleName()+"");
+	    logger.info("before method: class= "+this.getClass().getSimpleName()+"");
 	    
 	    Object proceed = joinPoint.proceed();
 	 
-	    logger.info("after method: This class= "+this.getClass().getSimpleName()+"");
+	    logger.info("after method: class= "+this.getClass().getSimpleName()+"");
 	    
 	    return proceed;
 	}
