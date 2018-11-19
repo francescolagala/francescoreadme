@@ -107,6 +107,6 @@ color:red
 Bootstrap style.css provides many classes. An example is class="btn btn-default" used to customize the button in the homepage.
 Otherwise you can define your own properties: red color for text in tag h1 is defined in style.css
 
-Official documentation: https://getbootstrap.com/docs/3.3/css/
-Unoffilial documentation: https://www.w3schools.com/bootstrap/
+- Official documentation: https://getbootstrap.com/docs/3.3/css/
+- Unoffilial documentation: https://www.w3schools.com/bootstrap/
 
