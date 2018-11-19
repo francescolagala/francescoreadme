@@ -121,13 +121,13 @@ We can start istalling the following softwares:
 [![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](bootstrap.md)
 
-### RestController: Make a simple call. Testing whit postman.
+### RestController: Make a simple ajax-call.
 
 - Download Postman
 - Create a rest controller
 - Create a simple method
 - Test it whit Postman
-- Use Javascript an Jquery to perform an ajax call
+- Use Javascript an Jquery to perform a real ajax call
 
 [![image](https://image.ibb.co/hYVEX0/postman.png)](https://www.getpostman.com/)
 [![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Ajax_(programming))
