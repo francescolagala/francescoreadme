@@ -1,9 +1,8 @@
 ### Dependencies you'll need in this step:
 
 ```
- <!--dependency added to map employee and employeeDTO  -->	
-		
-		
+    <!--dependency added to map employee and employeeDTO  -->	
+				
     <dependency>
     	<groupId>ma.glasnost.orika</groupId>
     	<artifactId>orika-core</artifactId>
@@ -12,10 +11,10 @@
     <dependency>
     	<groupId>net.rakugakibox.spring.boot</groupId>
     	<artifactId>orika-spring-boot-starter</artifactId>
-   		<version>1.6.0</version>
+   	<version>1.6.0</version>
     </dependency>
     
-      <!-- dependency for the database h2. Pay attention to the scope  -->
+    <!-- dependency for the database h2. Pay attention to the scope  -->
 
     <dependency>
     	<groupId>com.h2database</groupId>
@@ -23,12 +22,12 @@
     	<scope>runtime</scope>
     </dependency>
 		
-		<!-- you 'll need this dependency to use jpa repository as interface  -->
+    <!-- you 'll need this dependency to use jpa repository  -->
 		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+    <dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
 			
 ```
 
@@ -146,6 +145,9 @@ public interface EmployeeDAO extends JpaRepository <Employee, Integer>{
 This class is annotated whit @Component 
 It must implements OkiraMapperFactoryConfigurer (or some other mapper)
 This class is useful to map an employee (entity) whit an employeeDTO.
+
+TIPS: if you use the same name for properties both in entity and dto you don't need to map the fields. 
+They will be mapped by naming convention.
 
 ```
 package it.springbootmvc.flg.mappers;
