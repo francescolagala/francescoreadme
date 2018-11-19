@@ -75,7 +75,9 @@ We can start istalling the following softwares:
 
 ### Spring boot security Configuration
 
-- Basic Custom Configuration
+- Custom UserDetails implementation
+- Custom UserDetailsService implementation
+- Basic Configuration
 
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/security-spring)
 [![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Cross-cutting_concern)
@@ -100,14 +102,21 @@ We can start istalling the following softwares:
 
 ### Adding a new Class Project. many-to-many hibernate configuration.
 
+- Add new classes to project
+- Create a custom jointable
+
 [![image](https://image.ibb.co/c2Bxg9/springgood.png)](https://www.baeldung.com/hibernate-many-to-many)
 [![image](https://image.ibb.co/cKBtKU/wiki.png)](https://en.wikipedia.org/wiki/Many-to-many_(data_model))
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](m2m.md)
 
-### Ajax: Make a simple call. Testing whit postman.
+### RestController: Make a simple call. Testing whit postman.
 
-[![image](https://image.ibb.co/c2Bxg9/springgood.png)]()
-[![image](https://image.ibb.co/cKBtKU/wiki.png)]()
+- Download Postman
+- Create a rest controller
+- Create a simple method
+- Test it whit Postman
+
+[![image](https://image.ibb.co/hYVEX0/postman.png)](https://www.getpostman.com/)
 [![image](https://image.ibb.co/kbE3op/solution_2480514_1280.png)](postman.md)
 
 ### Ajax: Using Javascript an Jquery to perform a real ajax call.
