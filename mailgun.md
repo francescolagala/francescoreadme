@@ -26,8 +26,10 @@ mailgun.from=□□□□□□□□□□□□□□□□□□□□□□�
 mailgun.is.enabled=false
 ```
 
-<font color="red"> ATTENTION!!! never share this file. Mailgun will disallow your account. 
-(put it in your .gitignore file if you are working on a shared repository) </font>
+```diff
+- ATTENTION!!! never share this file. Mailgun will disallow your account. 
+(put it in your .gitignore file if you are working on a shared repository)
+```
 
 ###  Assign Mailgun properties to send a simple message
 
