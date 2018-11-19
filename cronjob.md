@@ -15,14 +15,14 @@ public class ScheduledLog {
 	
   private final static Logger logger = LoggerFactory.getLogger(LoggingController.class);
 
-	@Scheduled(fixedRate = 60000) //rate in millisecond === 60s
-	public void getTime() {
+  @Scheduled(fixedRate = 60000) //rate in millisecond === 60s
+  public void getTime() {
   
   logger.info("current time is:"+System.currentTimeMillis());
   
   }
 			
-	}
+}
 ```
 
 ###  CSV import: CsvMapper (interface):
@@ -72,7 +72,7 @@ public class CsvMapperImpl implements CsvMapper{
 			
 		    String myFilePath= userDir+"\\src\\main\\webapp\\imagesCsv";
 		    
-			  BufferedReader br = new BufferedReader(new FileReader(myFilePath));
+			BufferedReader br = new BufferedReader(new FileReader(myFilePath));
 		  	String result= br.readLine();
 		  	br.close();
 		    return result;
@@ -80,7 +80,7 @@ public class CsvMapperImpl implements CsvMapper{
 	}
 	
 	@Override
-    public Map<Integer, String> lineEncoding(String s) {
+        public Map<Integer, String> lineEncoding(String s) {
 			
 		String[]splitted = s.split(",");
 				
