@@ -11,7 +11,6 @@
     <dependency>
     	<groupId>net.rakugakibox.spring.boot</groupId>
     	<artifactId>orika-spring-boot-starter</artifactId>
-   	<version>1.6.0</version>
     </dependency>
     
     <!-- dependency for the database h2. Pay attention to the scope  -->
